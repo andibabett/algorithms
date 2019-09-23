@@ -2,17 +2,14 @@ package org.fasttrackit;
 
 public class Numbers {
 
-    int number;
 
+    public double sumary(int number2, int number1) {
+        int sum = number1 + number2;
 
-    public Numbers(int number1) {
-
-         public double Sumary(int number2,int number1)  {
-            Sumary = number1 + number2;
-
-            System.out.println("Summary for number1 and number2 is" + Sumary);
-        }
-
-
+        System.out.println("Summary for number1 and number2 is" + sum);
+        return sum;
     }
-    }
+
+
+}
+

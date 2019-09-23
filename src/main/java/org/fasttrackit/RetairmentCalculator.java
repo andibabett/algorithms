@@ -6,7 +6,6 @@ import java.util.Scanner;
 public class RetairmentCalculator {
 
     public static void main(String[] args) {
-
         System.out.println("What is your current age?");
         Scanner scanner = new Scanner(System.in);
         int age = scanner.nextInt();
@@ -22,6 +21,5 @@ public class RetairmentCalculator {
                 (currentDate.getYear() + remainingYears));
 
 
-
     }
-    }
+}

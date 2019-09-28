@@ -28,7 +28,7 @@ public class CozaLozaWoza {
     public static void main (String[] args) {
         printCozaLozaWoza(35, 150);
     }
-    public void printCozaLozaWoza(int start, int end) {
+    public static void printCozaLozaWoza(int start, int end) {
         for (int i = start; i <= end; i++) {
             if (i % 3 == 0 && i % 5 == 0) {
                 System.out.println("CozaLoza");

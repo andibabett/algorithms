@@ -8,18 +8,6 @@ public class App {
         System.out.println("Hello World!");
     }
 
-    Numbers numbers = new Numbers(5);
-
-    {
-
-    }
-
-    Numbers numbers2 = new Numbers(2);
-
-    {
-
-        System.out.println(numbers + numbers2);
-
 
     }
 
